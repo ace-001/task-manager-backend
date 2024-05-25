@@ -24,3 +24,13 @@ Make sure you have the following installed on your machine:
 
 ```bash
 git clone https://github.com/your-username/task-manager-backend.git
+```
+
+Testing with Swagger
+
+To test the API endpoints, you can use Swagger:
+```
+    Open your web browser and go to: 
+    http://localhost:8080/swagger-ui/index.html
+```
+Use the Swagger UI interface to explore and test the API endpoints.
