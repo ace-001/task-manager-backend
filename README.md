@@ -1,60 +1,26 @@
-# Project Name
+# Task Manager Backend
 
-Brief description or overview of your Spring Boot backend application.
-
-## Table of Contents
-
-- [Project Structure](#project-structure)
-- [Technologies Used](#technologies-used)
-- [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Configuration](#configuration)
-  - [Running the Application](#running-the-application)
-- [Endpoints](#endpoints)
-- [Database](#database)
-  - [H2 Database](#h2-database)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Project Structure
-
-Describe the structure of your Spring Boot project, including important packages, classes, and their responsibilities.
+This is the backend for a task management application built with Spring Boot.
 
 ## Technologies Used
 
-List the technologies, frameworks, and libraries used in your project.
-
 - Spring Boot
-- Spring MVC
-- Spring Data JPA
-- Hibernate
+- Maven (build tool)
 - H2 Database (for development/testing)
 - Swagger (for API documentation and testing)
-- Maven (build tool)
 
 ## Setup
 
-Provide instructions on how to set up and run your Spring Boot application locally.
+Follow these steps to set up and run the backend locally:
 
 ### Prerequisites
 
-List any software or tools that need to be installed before setting up the project (e.g., Java, Maven, IDE).
+Make sure you have the following installed on your machine:
+- Java JDK
+- Maven
+- Git (optional, for cloning the repository)
 
-### Configuration
-
-Explain any configuration steps required, such as database configuration, environment variables, or application properties.
-
-### Running the Application
-
-Provide detailed steps to run the Spring Boot application locally using Maven. Include commands for building, packaging, and starting the application.
-
-Example:
+### Clone the Repository
 
 ```bash
-# Build the project
-mvn clean package
-
-# Run the application
-java -jar target/<your-application-name>.jar
+git clone https://github.com/your-username/task-manager-backend.git
